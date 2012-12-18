@@ -1,0 +1,305 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0C751B921679D1A600D385B2 /* sanboxbreaker.entitlements in Resources */ = {isa = PBXBuildFile; fileRef = 0C751B911679D1A600D385B2 /* sanboxbreaker.entitlements */; };
+		0C751B9C1679D26400D385B2 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 0C751B991679D26400D385B2 /* AppDelegate.m */; };
+		0C751B9D1679D26400D385B2 /* DroppableView.m in Sources */ = {isa = PBXBuildFile; fileRef = 0C751B9B1679D26400D385B2 /* DroppableView.m */; };
+		0C751B9F1679D2B500D385B2 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 0C751B9E1679D2B500D385B2 /* main.m */; };
+		0C751BA21679D2C900D385B2 /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0C751BA01679D2C900D385B2 /* MainMenu.xib */; };
+		0C751BA51679D2CD00D385B2 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 0C751BA31679D2CD00D385B2 /* InfoPlist.strings */; };
+		0CEA1C01167874FA00C5557A /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0CEA1C00167874FA00C5557A /* Cocoa.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		0C751B911679D1A600D385B2 /* sanboxbreaker.entitlements */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; name = sanboxbreaker.entitlements; path = sanboxbreaker/sanboxbreaker.entitlements; sourceTree = "<group>"; };
+		0C751B981679D26400D385B2 /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = AppDelegate.h; path = sanboxbreaker/AppDelegate.h; sourceTree = SOURCE_ROOT; };
+		0C751B991679D26400D385B2 /* AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = AppDelegate.m; path = sanboxbreaker/AppDelegate.m; sourceTree = SOURCE_ROOT; };
+		0C751B9A1679D26400D385B2 /* DroppableView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = DroppableView.h; path = sanboxbreaker/DroppableView.h; sourceTree = SOURCE_ROOT; };
+		0C751B9B1679D26400D385B2 /* DroppableView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = DroppableView.m; path = sanboxbreaker/DroppableView.m; sourceTree = SOURCE_ROOT; };
+		0C751B9E1679D2B500D385B2 /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = main.m; path = sanboxbreaker/main.m; sourceTree = SOURCE_ROOT; };
+		0C751BA11679D2C900D385B2 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = sanboxbreaker/en.lproj/MainMenu.xib; sourceTree = SOURCE_ROOT; };
+		0C751BA41679D2CD00D385B2 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = sanboxbreaker/en.lproj/InfoPlist.strings; sourceTree = SOURCE_ROOT; };
+		0CEA1BFC167874FA00C5557A /* sandboxbreaker.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = sandboxbreaker.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		0CEA1C00167874FA00C5557A /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
+		0CEA1C03167874FA00C5557A /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = System/Library/Frameworks/AppKit.framework; sourceTree = SDKROOT; };
+		0CEA1C04167874FA00C5557A /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		0CEA1C05167874FA00C5557A /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		0CEA1C08167874FA00C5557A /* sandboxbreaker-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; name = "sandboxbreaker-Info.plist"; path = "sanboxbreaker/sandboxbreaker-Info.plist"; sourceTree = "<group>"; };
+		0CEA1C0E167874FA00C5557A /* sandboxbreaker-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = "sandboxbreaker-Prefix.pch"; path = "sanboxbreaker/sandboxbreaker-Prefix.pch"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		0CEA1BF9167874FA00C5557A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0CEA1C01167874FA00C5557A /* Cocoa.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0CEA1BF1167874FA00C5557A = {
+			isa = PBXGroup;
+			children = (
+				0C751B911679D1A600D385B2 /* sanboxbreaker.entitlements */,
+				0CEA1C06167874FA00C5557A /* sanboxbroker */,
+				0CEA1BFF167874FA00C5557A /* Frameworks */,
+				0CEA1BFD167874FA00C5557A /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		0CEA1BFD167874FA00C5557A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				0CEA1BFC167874FA00C5557A /* sandboxbreaker.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		0CEA1BFF167874FA00C5557A /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				0CEA1C00167874FA00C5557A /* Cocoa.framework */,
+				0CEA1C02167874FA00C5557A /* Other Frameworks */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		0CEA1C02167874FA00C5557A /* Other Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				0CEA1C03167874FA00C5557A /* AppKit.framework */,
+				0CEA1C04167874FA00C5557A /* CoreData.framework */,
+				0CEA1C05167874FA00C5557A /* Foundation.framework */,
+			);
+			name = "Other Frameworks";
+			sourceTree = "<group>";
+		};
+		0CEA1C06167874FA00C5557A /* sanboxbroker */ = {
+			isa = PBXGroup;
+			children = (
+				0C751B981679D26400D385B2 /* AppDelegate.h */,
+				0C751B991679D26400D385B2 /* AppDelegate.m */,
+				0C751B9A1679D26400D385B2 /* DroppableView.h */,
+				0C751B9B1679D26400D385B2 /* DroppableView.m */,
+				0C751BA01679D2C900D385B2 /* MainMenu.xib */,
+				0CEA1C07167874FA00C5557A /* Supporting Files */,
+			);
+			path = sanboxbroker;
+			sourceTree = "<group>";
+		};
+		0CEA1C07167874FA00C5557A /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				0C751B9E1679D2B500D385B2 /* main.m */,
+				0CEA1C08167874FA00C5557A /* sandboxbreaker-Info.plist */,
+				0C751BA31679D2CD00D385B2 /* InfoPlist.strings */,
+				0CEA1C0E167874FA00C5557A /* sandboxbreaker-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		0CEA1BFB167874FA00C5557A /* sandboxbreaker */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0CEA1C1A167874FA00C5557A /* Build configuration list for PBXNativeTarget "sandboxbreaker" */;
+			buildPhases = (
+				0CEA1BF8167874FA00C5557A /* Sources */,
+				0CEA1BF9167874FA00C5557A /* Frameworks */,
+				0CEA1BFA167874FA00C5557A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = sandboxbreaker;
+			productName = sanboxbroker;
+			productReference = 0CEA1BFC167874FA00C5557A /* sandboxbreaker.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		0CEA1BF3167874FA00C5557A /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0450;
+				ORGANIZATIONNAME = "Shiny Frog";
+			};
+			buildConfigurationList = 0CEA1BF6167874FA00C5557A /* Build configuration list for PBXProject "sandboxbreaker" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 0CEA1BF1167874FA00C5557A;
+			productRefGroup = 0CEA1BFD167874FA00C5557A /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				0CEA1BFB167874FA00C5557A /* sandboxbreaker */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		0CEA1BFA167874FA00C5557A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0C751B921679D1A600D385B2 /* sanboxbreaker.entitlements in Resources */,
+				0C751BA21679D2C900D385B2 /* MainMenu.xib in Resources */,
+				0C751BA51679D2CD00D385B2 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		0CEA1BF8167874FA00C5557A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0C751B9C1679D26400D385B2 /* AppDelegate.m in Sources */,
+				0C751B9D1679D26400D385B2 /* DroppableView.m in Sources */,
+				0C751B9F1679D2B500D385B2 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		0C751BA01679D2C900D385B2 /* MainMenu.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				0C751BA11679D2C900D385B2 /* en */,
+			);
+			name = MainMenu.xib;
+			sourceTree = "<group>";
+		};
+		0C751BA31679D2CD00D385B2 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				0C751BA41679D2CD00D385B2 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		0CEA1C18167874FA00C5557A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.8;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		0CEA1C19167874FA00C5557A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.8;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		0CEA1C1B167874FA00C5557A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_ENTITLEMENTS = sanboxbreaker/sanboxbreaker.entitlements;
+				CODE_SIGN_IDENTITY = "Mac Developer";
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "sanboxbreaker/sandboxbreaker-Prefix.pch";
+				INFOPLIST_FILE = "sanboxbreaker/sandboxbreaker-Info.plist";
+				PRODUCT_NAME = sandboxbreaker;
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		0CEA1C1C167874FA00C5557A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_ENTITLEMENTS = sanboxbreaker/sanboxbreaker.entitlements;
+				CODE_SIGN_IDENTITY = "Mac Developer";
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "sanboxbreaker/sandboxbreaker-Prefix.pch";
+				INFOPLIST_FILE = "sanboxbreaker/sandboxbreaker-Info.plist";
+				PRODUCT_NAME = sandboxbreaker;
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		0CEA1BF6167874FA00C5557A /* Build configuration list for PBXProject "sandboxbreaker" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0CEA1C18167874FA00C5557A /* Debug */,
+				0CEA1C19167874FA00C5557A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		0CEA1C1A167874FA00C5557A /* Build configuration list for PBXNativeTarget "sandboxbreaker" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0CEA1C1B167874FA00C5557A /* Debug */,
+				0CEA1C1C167874FA00C5557A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 0CEA1BF3167874FA00C5557A /* Project object */;
+}
