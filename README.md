@@ -8,5 +8,6 @@ Open more than 4k files with the sample app using the open panel or by dragging 
 You can download a zip containing more than 5k files here: [5k files zip](https://sf-applications.s3.us-east-1.amazonaws.com/5162_icons.zip)
 
 ## Updates
-* **03 August 2021**: the bug still exist in macOS 11.4
+* **06 June 2025**: the bug still exists in macOS 15.5
+* **03 August 2021**: the bug still exists in macOS 11.4
 * **30 October 2019**: the bug still exist in macOS 10.14.5 and 10.15.1
